@@ -24,4 +24,4 @@ class ProductPage(BasePage):
 		assert self.browser.find_element(*ProductPageLocators.NAME_OF_BOOK).text \
 										== self.browser.find_element(*ProductPageLocators.BOOKS_NAME).text \
 										, "it's wrong, book names are doesn't equals"
-										
+	
